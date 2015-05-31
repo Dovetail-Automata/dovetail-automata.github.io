@@ -406,6 +406,10 @@ footer .footer:before, footer .footer:after {
 /* Code Highlighting */
 
 
+a code {
+  color: {{page.link_color}};
+}
+
 pre, code {
   white-space: pre;
   display: inline-block;
